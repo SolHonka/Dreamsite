@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dreams</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Dreamsite Logo">
+        </div>
+        <div class="header-text">
+            <h1>My Dreams</h1>
+        </div>
+        <div class="logout-btn">
+            <button id="logout-btn">Logout</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="dream-entry">
+            <h2>What did you dream of?</h2>
+            <form id="dream-form">
+                <textarea id="dream-text" name="dream-text" placeholder="Enter your dream"></textarea>
+                <input type="datetime-local" id="dream-date" name="dream-date">
+                <button id="save-dream-btn" type="submit">Save Dream</button>
+            </form>
+        </div>
+        
+        <div id="dreams-list">
+            <!-- Dreams will be displayed here -->
+        </div>
+    </div>
+
+    <script src="dreams_script.js"></script>
+</body>
+</html>

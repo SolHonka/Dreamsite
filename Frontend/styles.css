@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.header-text h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-section {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    background-color: #444; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.not-logged-in {
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #555; /* Darker background color */
+    color: #fff; /* Light text color */
+    border: 1px solid #888; /* Light border color */
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* Light text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.register-link {
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* New CSS class for displaying dreams */
+.dream-box {
+    background-color: #444; /* Dark background color */
+    color: #fff; /* Light text color */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.dream-box p {
+    margin: 0;
+}
+
+.dream-box .dream-text {
+    font-size: 18px;
+}
+
+.dream-box .dream-date {
+    font-style: italic;
+    color: #888; /* Lighter text color for date */
+}
