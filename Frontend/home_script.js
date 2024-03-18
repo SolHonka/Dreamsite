@@ -19,7 +19,7 @@ document.getElementById('login-form').addEventListener('submit', async function(
     const password = document.getElementById('password').value;
 
     // Make AJAX request to login endpoint
-    const response = await fetch('http://localhost:3000/auth/login', {
+    const response = await fetch('http://127.0.0.1:3000/auth/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -48,7 +48,7 @@ document.getElementById('register-form').addEventListener('submit', async functi
     const password = document.getElementById('password').value;
 
     // Make AJAX request to registration endpoint
-    const response = await fetch('http://localhost:3000/auth/register', {
+    const response = await fetch('http://127.0.0.1:3000/auth/register', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

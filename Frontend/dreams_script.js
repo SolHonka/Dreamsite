@@ -5,7 +5,7 @@ console.log("asdf");
 // Function to fetch and display user's dreams
 async function fetchDreams(token) {
     try {
-        const response = await fetch('http://localhost:3000/dreams/get', {
+        const response = await fetch('http://127.0.0.1:3000/dreams/get', {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -35,7 +35,7 @@ async function fetchDreams(token) {
                 deleteButton.textContent = 'Delete';
                 deleteButton.addEventListener('click', async () => {
                     try {
-                        const deleteResponse = await fetch('http://localhost:3000/dreams/delete', {
+                        const deleteResponse = await fetch('http://127.0.0.1:3000/dreams/delete', {
                             method: 'DELETE',
                             headers: {
                                 'Authorization': `Bearer ${token}`,
@@ -100,7 +100,7 @@ async function saveDream(token, dreamText, dreamDate) {
             return; // Exit function if either dreamText or dreamDate is empty
         }
 
-        const response = await fetch('http://localhost:3000/dreams/create', {
+        const response = await fetch('http://127.0.0.1:3000/dreams/create', {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${token}`,
