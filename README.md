@@ -6,7 +6,7 @@
 
 1. Clone/download code
 2. Install & start MySQL/MariaDB server
-3. Run the contents of sqlbase.sql to create the database
+3. Run the contents of "sqlbase.sql" to create the database
 4. Edit the "db.js" file to match your usage
 5. Run the "server.js" file
 
