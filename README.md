@@ -2,8 +2,6 @@
 
 **Node.js + Express** application.
 
-(Check week/feature branches too.)
-
 ## Usage
 
 1. Clone/download code
