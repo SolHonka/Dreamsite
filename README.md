@@ -10,6 +10,11 @@
 4. Edit the "db.js" file to match your usage
 5. Run the "server.js" file
 
+## Screenshots
+
+![Image 1](image1.jpg)
+![Image 2](image2.png)
+
 ## Resources and endpoints
 
 ### `/auth/register` 
