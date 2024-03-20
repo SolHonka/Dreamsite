@@ -42,6 +42,7 @@ These functions collectively allow users to register, log in, save dreams, view 
 3. Run the contents of "sqlbase.sql" to create the database
 4. Edit the "db.js" file to match your usage
 5. Run the "server.js" file
+6. Run the "login.html" file
 
 ## Screenshots
 
