@@ -2,7 +2,7 @@
 
 **Node.js + Express** application.
 
-## Functions of the Web Application
+## Functions of Dreamsite
 
 1. **User Registration:**
    - Users can register for an account by providing a unique username and a password.
